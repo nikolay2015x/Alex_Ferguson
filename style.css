@@ -178,7 +178,7 @@ header nav ul li a.active
     width: 160px;
     height: 2px;
     background: rgb(189, 45, 45);
-    margin: 40px auto;
+    margin: 20px auto;
 }
 .services_container{
     display: flex;
@@ -324,7 +324,7 @@ header nav ul li a.active
 }
 .container_left{
     width: 47%;
-    padding: 20px;
+    padding: 0px 16px 16px 16px;
 }
 .content{
     background: #fff;
@@ -333,7 +333,7 @@ header nav ul li a.active
 }
 .container_right{
     width: 47%;
-    padding: 15px;
+    padding: 0px 16px 16px 16px;
 }
 .content p{
     font-size: 16px;
@@ -344,3 +344,18 @@ header nav ul li a.active
         width: 100%;
     }
 } 
+
+
+footer{
+    height: 5em;
+    position: relative;
+    background: #bdc3c7;
+}
+footer p{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%)
+}
